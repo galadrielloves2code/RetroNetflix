@@ -1,79 +1,47 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Retroflix - Retro Redesign of Netflix UI
 
-# Getting Started
+Netflix, Inc. is an American subscription streaming service and production company. Launched on August 29, 1997, it offers a film and television series library through distribution deals as well as its own productions, known as Netflix Originals. Retroflix is a React Native project that aims to redesign the Netflix user interface with a retro twist. The goal is to capture the nostalgic feel of the past while still providing the convenience of modern streaming applications. This project is a collaboration between developers and a talented UI designer Oguzhan Ekiz (https://www.behance.net/ogzhnekz) who has come up with a creative and innovative retro UI concept inspired by the golden age of cinema.
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+## Features
 
-## Step 1: Start the Metro Server
+- Nostalgic retro UI elements and color schemes.
+- Streamlined browsing experience reminiscent of classic film catalogs.
+- Handpicked collection of classic movies and TV shows.
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+## Screenshots
 
-To start Metro, run the following command from the _root_ of your React Native project:
+<img width="278" alt="settings" src="https://github.com/galadrielloves2code/RetroNetflix/assets/126419291/7618fedb-1124-4b38-ac10-9583b557357d">
 
-```bash
-# using npm
-npm start
+<img width="280" alt="logIn" src="https://github.com/galadrielloves2code/RetroNetflix/assets/126419291/f51b78ae-e3a1-43b2-9b61-4ebc2538365b">
 
-# OR using Yarn
-yarn start
-```
+<img width="278" alt="main" src="https://github.com/galadrielloves2code/RetroNetflix/assets/126419291/fe3e81b0-4db0-4a3f-a73e-452f9f3cb797">
 
-## Step 2: Start your Application
+<img width="276" alt="searchPage" src="https://github.com/galadrielloves2code/RetroNetflix/assets/126419291/9a060a71-bd09-45db-8132-0c36dd44a47b">
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
 
-### For Android
 
-```bash
-# using npm
-npm run android
+## Installation
 
-# OR using Yarn
-yarn android
-```
+Follow these steps to run the Retroflix app locally:
 
-### For iOS
+1. Clone this repository: `git clone https://github.com/your-username/retroflix.git`
+2. Navigate to the project directory: `cd RetroNetflix`
+3. Install dependencies: `npm install`
+4. Run the app: `npm start`
 
-```bash
-# using npm
-npm run ios
+## UI Design
 
-# OR using Yarn
-yarn ios
-```
+The stunning retro UI for Retroflix has been meticulously designed by Oguzhan Ekiz (https://www.behance.net/ogzhnekz). The design takes inspiration from classic cinema aesthetics, providing a unique and immersive user experience.
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+For any questions or inquiries regarding the UI design, feel free to get in touch with Oguzhan Ekiz (https://www.behance.net/ogzhnekz). They would be more than happy to provide insights and further explanations about the design choices.
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+## Contact
 
-## Step 3: Modifying your App
+For project-related inquiries, suggestions, or issues, you can contact the development team:
 
-Now that you have successfully run the app, let's modify it.
+- Derya Bagci (https://www.linkedin.com/in/derya-bagci/) - Project Lead
+- Oguzhan Ekiz (https://www.behance.net/ogzhnekz) - UI/UX Designer
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
+## License
 
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+This project is licensed under the [MIT License](link_to_license_file).

@@ -1,5 +1,6 @@
 import React from 'react';
 import {StyleSheet, Text, Image, SafeAreaView, View} from 'react-native';
+import { Toggle } from '../components/toggle';
 
 export function LogIn() {
   return (
@@ -9,6 +10,7 @@ export function LogIn() {
           source={require('../assets/images/logo.png')}
           style={styles.logo}
         />
+        <Toggle/>
         <Text style={styles.edit}>EDIT</Text>
       </View>
       <View>
@@ -49,7 +51,7 @@ const styles = StyleSheet.create({
     fontSize: 18,
     color: 'red',
     marginRight: 24,
-    marginTop: 30,
+    marginTop: 50,
   },
   topBar: {
     display: 'flex',

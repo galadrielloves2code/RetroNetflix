@@ -1,11 +1,17 @@
-import React from "react";
-import { Text } from "react-native-reanimated/lib/typescript/Animated";
-import { SafeAreaView } from "react-native-safe-area-context";
+import React from 'react';
+import {StyleSheet, Text} from 'react-native';
+import {SafeAreaView} from 'react-native';
 
-export function SeriesPage(){
-    return(
-        <SafeAreaView>
-            <Text>Hello</Text>
-        </SafeAreaView>
-    );
-};
+export function SeriesPage() {
+  return (
+    <SafeAreaView style={styles.container}>
+      <Text>Hello</Text>
+    </SafeAreaView>
+  );
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+  },
+});

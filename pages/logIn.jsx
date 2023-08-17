@@ -1,16 +1,16 @@
 import React from 'react';
 import {StyleSheet, Text, Image, SafeAreaView, View} from 'react-native';
-import { Toggle } from '../components/toggle';
+import {Toggle} from '../components/toggle';
 
 export function LogIn() {
   return (
-    <SafeAreaView>
+    <SafeAreaView style={styles.page}>
       <View style={styles.topBar}>
         <Image
           source={require('../assets/images/logo.png')}
           style={styles.logo}
         />
-        <Toggle/>
+        <Toggle />
         <Text style={styles.edit}>EDIT</Text>
       </View>
       <View>
@@ -25,13 +25,16 @@ export function LogIn() {
           source={require('../assets/images/RetroDetail.png')}
           style={styles.retroImageStyle}
         />
-        <Text style={styles.add}>+ ADD</Text>
       </View>
+      <Text style={styles.add}>+ ADD</Text>
     </SafeAreaView>
   );
 }
 
 const styles = StyleSheet.create({
+  page: {
+    position: 'relative',
+  },
   primaryFont: {
     fontFamily: 'Poppins-Bold',
     fontSize: 32,
@@ -73,9 +76,9 @@ const styles = StyleSheet.create({
   },
   add: {
     zIndex: 99,
-    borderColor: 'black',
-    top: 50,
-    color: 'red',
-    borderWidth: 2,
+    position: 'absolute',
+    top: 480,
+    left: 172,
+    fontWeight: 'bold',
   },
 });

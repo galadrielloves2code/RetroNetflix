@@ -39,7 +39,7 @@ For any questions or inquiries regarding the UI design, feel free to get in touc
 
 For project-related inquiries, suggestions, or issues, you can contact the development team:
 
-- Derya Bagci (https://www.linkedin.com/in/derya-bagci/) - Project Lead
+- Derya Bagci (https://www.linkedin.com/in/derya-bagci/) - Project Lead & Developer
 - Oguzhan Ekiz (https://www.linkedin.com/in/ogzhnekz/) - UI/UX Designer
 
 ## License
